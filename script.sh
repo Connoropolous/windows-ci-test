@@ -7,5 +7,5 @@ npm install
 
 ./build/release-build-electron.bash
 
-cd build/electron-build
+cd build/electron-build/dist
 ls
