@@ -1,0 +1,7 @@
+os: windows
+language: node_js
+
+jobs:
+  include:
+    - stage: test
+      script: ./script.sh
