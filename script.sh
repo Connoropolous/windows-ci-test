@@ -8,4 +8,4 @@ npm install
 ./build/release-build-electron.bash
 
 cd build/electron-build/dist
-ls
+n3h-0.0.13-alpha-win-x64 --version
