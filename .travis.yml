@@ -6,4 +6,4 @@ node_js:
 jobs:
   include:
     - stage: test
-      script: PowerShell -File test.ps1
+      script: PowerShell -ExecutionPolicy Bypass -File test.ps1
