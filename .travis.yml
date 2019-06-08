@@ -1,9 +1,6 @@
 os: windows
-language: node_js
-node_js:
-  - "10"
 
 jobs:
   include:
     - stage: test
-      script: PowerShell -File C:/Users/travis/build/Connoropolous/windows-ci-test/test.ps1
+      script: PowerShell -File 'C:/Users/travis/build/Connoropolous/windows-ci-test/test.ps1'
