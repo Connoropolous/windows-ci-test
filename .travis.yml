@@ -6,4 +6,4 @@ node_js:
 jobs:
   include:
     - stage: test
-      script: test.ps1
+      script: PowerShell -File test.ps1
